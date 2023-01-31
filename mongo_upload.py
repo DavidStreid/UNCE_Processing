@@ -1,14 +1,9 @@
 import json
 import requests
 
-url = "https://00be66e2202d5b989b5e7b2e819455d1.balena-devices.com/postUNCE"
-# url = "https://00be66e2202d5b989b5e7b2e819455d1.balena-devices.com/postUNCE"
-# url = "https://00be66e2202d5b989b5e7b2e819455d1.balena-devices.com/postUNCE"
-# url = "https://1460d9a8f89bd02f753745de07464cf0.balena-devices.com/postUNCE"
-# "https://bf810d4f57af9fcd7329dada5c41b22c.balena-devices.com/postUNCE"
-# "https://fe6dd65c26df38a8ae650cb6c9569f24.balena-devices.com//postUNCE"
+url = "..."
 
-file = '/Users/davidstreid/bioData/unce/unce_file.json'
+file = 'unce_file.json'
 with open(file) as f:
   data = json.load(f)
   entries = data["entries"]
